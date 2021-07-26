@@ -1,14 +1,14 @@
-function App() {
-  const name = 'Jason'
-  const x = false;
+import Header from './components/Header'
+
+const App = () => {
 
   return (
     <div className="container">
-      <h1>Hello From React</h1>
-       <h2>Hello {x ? 'Yes' : 'No'}</h2>
+      <Header />
     </div>
-   
   );
 }
+
+
 
 export default App;
