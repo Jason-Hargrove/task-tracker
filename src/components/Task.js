@@ -9,7 +9,7 @@ const Task = ({ task, onDelete, onToggle }) => {
             <h3>
               {task.text}{' '} 
               <FaTrashAlt 
-                style={{ color: 'red', cursor: 'pointer'}} 
+                style={{ color: 'magenta', cursor: 'pointer'}} 
                 onClick={() => onDelete(task.id)}
               /> 
             </h3>

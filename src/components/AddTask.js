@@ -21,7 +21,7 @@ const AddTask = ({ onAdd }) => {
     return (
         <form className='add-form' onSubmit={onSubmit}>
             <div className='form-control'>
-                <label>Task</label>
+                <label>Bucket List Task</label>
                 <input 
                 type='text' placeholder='Add Task'
                 value={text}
@@ -29,7 +29,7 @@ const AddTask = ({ onAdd }) => {
                  />
             </div>
             <div className='form-control'>
-                <label>Day and Time</label>
+                <label>What day? What Time?</label>
                 <input 
                 type='text' placeholder='Add Day and Time'
                 value={day}
@@ -37,7 +37,7 @@ const AddTask = ({ onAdd }) => {
                  />
             </div>
             <div className='form-control form-control-check'>
-                <label>Set Reminder</label>
+                <label>Remind Yourself</label>
                 <input 
                 type='checkbox' 
                 checked={reminder}
@@ -46,7 +46,7 @@ const AddTask = ({ onAdd }) => {
                 />
             </div>
 
-            <input type='submit' value='Save Task'
+            <input type='submit' value='Save That Task'
             className='btn btn-block' />
         </form>
     )

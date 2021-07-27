@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Patrick+Hand+SC&display=swap');
 
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Gochi Hand', sans-serif;
 }
 
 .container {
@@ -15,7 +15,7 @@ body {
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 1px solid red;
   padding: 30px;
   border-radius: 5px;
 }
@@ -25,20 +25,22 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  filter: drop-shadow(0 0 0.40rem crimson);
 }
 
 .btn {
   display: inline-block;
   background: #000;
-  color: #fff;
+  color: yellow;
   border: none;
   padding: 10px 20px;
   margin: 5px;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   font-family: inherit;
+  filter: drop-shadow(0 0 0.40rem crimson);
 }
 
 .btn:focus {
@@ -62,7 +64,7 @@ body {
 }
 
 .task.reminder {
-  border-left: 5px solid green;
+  border-left: 5px solid orange;
 }
 
 .task h3 {
@@ -108,5 +110,5 @@ body {
 
 footer {
   margin-top: 30px;
-  text-align: center;
+  text-align: right;
 }
